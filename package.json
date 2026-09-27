@@ -1,0 +1,40 @@
+{
+  "name": "aplikacja-plan-zajec-20435-18866",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "start:backend": "cd backend && npm start"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "exceljs": "^3.4.0",
+    "express": "^5.2.1",
+    "file-saver": "^2.0.5",
+    "pg": "^8.21.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "write-excel-file": "^4.1.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@eslint/js": "^10.0.1",
+    "@rolldown/plugin-babel": "^0.2.3",
+    "@types/file-saver": "^2.0.7",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@types/xlsx": "^0.0.35",
+    "@vitejs/plugin-react": "^6.0.3",
+    "babel-plugin-react-compiler": "0.0.0-experimental-c23de22-20240704",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "vite": "^8.0.12"
+  }
+}

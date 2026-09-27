@@ -1,0 +1,26 @@
+{
+  "name": "Aplikacja do planów zajęć",
+  "version": "1.0.0",
+
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "migrate": "node run-migrations.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1",
+    "express-validator": "^7.3.2",
+    "knex": "^3.3.0",
+    "or-tools-wasm": "^0.9.1",
+    "pg": "^8.22.0"
+  }
+}
